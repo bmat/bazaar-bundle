@@ -2,10 +2,13 @@
 name = "bazaar_bundle"
 version = "2.0.0"
 description = "Bazaar support for applauncher"
-authors = ["Alvaro Garcia <agarcia@bmat.com>"]
+authors = [
+    "Alvaro Garcia <agarcia@bmat.com>",
+    "BMAT TVAV <tvav-sw@bmat.com>"
+]
 
 [tool.poetry.dependencies]
-python = ">=3.6,<4.0.0"
+python = "^3.6"
 bazaar = "^1.0.1"
 applauncher = "^2.0.0"
 
