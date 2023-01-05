@@ -13,8 +13,15 @@ class FileSystemConfig(BaseModel):
     default_namespace: str = ""
 
 
+class NamedFileSystemConfig(BaseModel):
+    name: str
+    storage_uri: str
+    db_uri: str
+    default_namespace: str = ""
+
+
 class BazaarConfig(FileSystemConfig):
-    file_systems: Optional[List[FileSystemConfig]]
+    file_systems: Optional[List[NamedFileSystemConfig]]
 
 
 class FileSystemCollection:
