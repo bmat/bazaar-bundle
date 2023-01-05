@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bazaar_bundle"
-version = "2.0.0"
+version = "2.1.0"
 description = "Bazaar support for applauncher"
 authors = [
     "Alvaro Garcia <agarcia@bmat.com>",
