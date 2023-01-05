@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bazaar_bundle"
+version = "2.0.0"
+description = "Bazaar support for applauncher"
+authors = ["Alvaro Garcia <agarcia@bmat.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4.0.0"
+bazaar = "^1.0.1"
+applauncher = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

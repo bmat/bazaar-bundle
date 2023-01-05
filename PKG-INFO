@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bazaar-bundle
+Version: 2.0.0
+Summary: Bazaar support for applauncher
+Author: Alvaro Garcia
+Author-email: agarcia@bmat.com
+Requires-Python: >=3.6,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: applauncher (>=2.0.0,<3.0.0)
+Requires-Dist: bazaar (>=1.0.1,<2.0.0)
