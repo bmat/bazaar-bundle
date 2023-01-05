@@ -21,7 +21,7 @@ class FileSystemCollection:
     def __init__(self, file_systems: List[Dict[str, str]]):
         self._file_systems = {
             fs.name: FileSystem(storage_uri=fs.storage_uri, db_uri=fs.db_uri, namespace=fs.default_namespace)
-            for fs in file_systems
+            for fs in file_systems or []
         }
 
     def __getitem__(self, fs_name: str) -> FileSystem:
